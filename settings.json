@@ -23,21 +23,21 @@
     }
   ],
   "social": {
-    "glitch": "https://glitch.com/",
-    "spotify": "",
+    "glitch": "https://glitch.com/@AramZS",
+    "spotify": "https://open.spotify.com/user/aramzs",
     "substack": "",
-    "dev": "https://dev.to/glitch",
+    "dev": "https://dev.to/aramzs",
     "facebook": "",
-    "github": "https://github.com/glitchdotcom",
+    "github": "https://github.com/aramzs",
     "gitlab": "",
     "hashnode": "",
     "instagram": "",
-    "linkedin": "https://www.linkedin.com/company/fog-creek-software",
+    "linkedin": "https://bit.ly/aramzs",
     "medium": "",
     "patreon": "",
     "pinterest": "",
-    "twitter": "https://twitter.com/glitch",
-    "youtube": "https://www.youtube.com/c/GlitchDotCom",
+    "twitter": "https://twitter.com/chronotope",
+    "youtube": "https://www.youtube.com/channel/UChwoOWioC8_UeUFRJptBYrw",
     "twitch": "",
     "tiktok": "",
     "podcast": "",
@@ -46,6 +46,6 @@
     "mastodon": "",
     "stackoverflow": "",
     "kofi": "",
-    "email": "support@glitch.com"
+    "email": "aramzs@hacktext.com"
   }
 }
