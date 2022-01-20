@@ -32,7 +32,9 @@
         "sameAs": "http://aramzs.github.io/aramzs/",
         "givenName": "Aram",
         "familyName": "Zucker-Scharff",
-        "alternateName": "AramZS",
+        {{#if settings.alternateName}} 
+        "alternateName": "{{ settings.alternateName }}", 
+        {{/if }} 
         "publishingPrinciples": "http://aramzs.github.io/about/"
     }
 </script>
