@@ -9,6 +9,32 @@
 <meta name="twitter:card" content="summary" />
 <link rel="icon" href="https://glitch.com/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+<!-- JSON-LD for Schema objects -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": {
+            "@type": "PronounceableText",
+            "inLanguage": "en-US",
+            "textValue": "{{ settings.name}}",
+            "speechToTextMarkup": "IPA",
+            "phoneticText": "/ˌæ.ɹəm ˈt͡sʊ.kɚ 'ʃɑɹf/"
+        },
+        "description": "{{ settings.metaDescription }}",
+        "disambiguatingDescription": "A media-focused developer and strategist.",
+        "image": [
+            
+                "https://hacktext.com/wp-content/uploads/2021/06/Aram-Zucker-Scharff-fun-me-rect-small.jpg"
+            
+        ],
+        "sameAs": "http://aramzs.github.io/aramzs/",
+        "givenName": "Aram",
+        "familyName": "Zucker-Scharff",
+        "alternateName": "AramZS",
+        "publishingPrinciples": "http://aramzs.github.io/about/"
+    }
+</script>
 <!--PWA requirements-->
 <meta name="theme-color" content="#9480FF"/>
 <link rel="apple-touch-icon" href="https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305">
@@ -26,3 +52,5 @@ else {
   console.warn('Service Worker not supported in this browser');
 }    
 </script>
+<!-- Custom Meta for just me -->
+<link rel="canonical" href="http://aramzs.github.io/aramzs/">
