@@ -7,6 +7,10 @@
   "avatarImage": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163",
   "links": [
     {
+      "url": "https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html",
+      "text": "Comment on the IAB Tech Lab's Global Privacy Platform (GPP)"
+    },
+    {
       "url": "http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html",
       "text": "Topics API Review",
       "img":"https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Fglitchmidblues.png?v=1634289872484",
