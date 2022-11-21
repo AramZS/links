@@ -12,6 +12,11 @@
       "img": "https://github.com/AramZS/aramzs.github.io/blob/master/_includes/portrait_of_a_confused_person_looking_at_a_computer.png?raw=true"
     },
     {
+      "url": "https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/",
+      "text": "Why you should find the Mastodon instance that works for you",
+      "img": "https://fightwithtools.dev/img/a-group-of-people.png"
+    },
+    {
       "url": "https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html",
       "text": "Comment on the IAB Tech Lab's Global Privacy Platform (GPP)"
     },
@@ -22,18 +27,13 @@
       "altText": "Glitch blue generative art"
     },
     {
-      "url": "https://fightwithtools.dev/posts/writing/play-to-find-out-on-showing-your-code/",
-      "text": "Play to Find Out: On Showing Your (Code) Work",
-      "img": "https://fightwithtools.dev/img/play-to-find-out.png"
-    },
-    {
       "url": "https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w",
       "text": "Twitter Explains Web3 to Me",
       "img":"https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Fglitchdarkpinks.png?v=1634289859236"
     },
     {
-      "url": "https://twitter.com/Chronotope",
-      "text": "My Twitter: Chronotope",
+      "url": "https://keybase.io/aramzs",
+      "text": "Want to DM me? Use my Keybase: AramZS",
       "img":"https://pbs.twimg.com/profile_banners/15099054/1398272587/600x200"
     },
     {
@@ -68,6 +68,7 @@
     "stackoverflow": "",
     "kofi": "",
     "email": "glitch@aramzs.me",
-    "calendly": "https://calendly.com/aramzs"
+    "calendly": "https://calendly.com/aramzs",
+    "keybase": "https://keybase.io/aramzs"
   }
 }
