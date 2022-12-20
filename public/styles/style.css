@@ -246,6 +246,7 @@ ul.link-list li a span {
   width: 1.75rem;
   margin-bottom: 1rem;
   display: inline-flex;
+  max-height: 26px;
 }
 /* Image paths specified in layout/social.html */
 .social-profile-icon path {
