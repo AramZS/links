@@ -16,17 +16,17 @@ module.exports = function(){
     return JSON.stringify(link)
   });
   let feedStrings = json.items.map(link => JSON.stringify(link))
-  console.log('strings', itemStrings, feedStrings)
+  //console.log('strings', itemStrings, feedStrings)
   let uniqueItems = new Set();
-  feedStrings.reverse().forEach(string => uniqueItems.add(string))
   itemStrings.forEach(string => uniqueItems.add(string))
+  feedStrings.forEach(string => uniqueItems.add(string))
   let itemList = Array.from(uniqueItems);
-  console.log('itemlist', itemList)
+  //console.log('itemlist', itemList)
   
   let finalJson = Object.assign(json, {
     title: settings.metaTitle,
     home_page_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/`,
-    feed_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/rss`,
+    feed_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/rss/index.xml`,
     description: settings.metaDescription,
     icon: `https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305`,
     favicon: `https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305`,
@@ -50,7 +50,7 @@ module.exports = function(){
 
   fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');
   const feed = nj.render('rss.njk', finalJson)
-  console.log('feed', feed)
+  //console.log('feed', feed)
   fs.writeFileSync('public/rss/index.xml', feed, 'utf8');
   try {
     fs.mkdirSync('build/rss')

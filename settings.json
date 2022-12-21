@@ -8,9 +8,9 @@
   "avatarImage": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163",
   "links": [
     {
-      "url": "http://aramzs.me/zsfc",
-      "text": "The MTA’s switch to OMNY machines is a privacy nightmare",
-      "img": "https://github.com/AramZS/aramzs.github.io/blob/master/_includes/portrait_of_a_confused_person_looking_at_a_computer.png?raw=true"
+      "url": "https://context.center/topics/activitypub/",
+      "text": "Understanding ActivityPub at all levels",
+      "img": "https://context.center/img/network-models.jpg"
     },
     {
       "url": "https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/",

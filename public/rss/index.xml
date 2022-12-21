@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Aram Zucker-Scharff&#39;s Glitch in Bio!</title>
-	<atom:link href="https://aramzs.glitch.me/rss" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Wed, 21 Dec 2022 18:31:56 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 21 Dec 2022 18:49:42 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -21,10 +21,10 @@
 		glitch@aramzs.me (Aram Zucker-Scharff)
 	</managingEditor>
 	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
+		<title>Understanding ActivityPub at all levels</title>
+		<link>https://context.center/topics/activitypub/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
+		<guid isPermaLink="true">https://context.center/topics/activitypub/</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
@@ -61,6 +61,12 @@
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+	</item>
+	<item>
+		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
+		<link>http://aramzs.me/zsfc?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	</channel>
 </rss>
