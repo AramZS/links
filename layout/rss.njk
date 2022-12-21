@@ -1,8 +1,3 @@
----js
-{
-  "builddate": (new Date).toUTCString()
-}
----
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -29,7 +24,6 @@
 	<item>
 		<title>{{ item.text }}</title>
 		<link>{{ item.url }}?source=rss</link>
-		<pubDate>{{ item.date_published }}</pubDate>
 		<dc:creator>{{ authors[0].name }}</dc:creator>
 		<guid isPermaLink="true">{{ item.url }}</guid>
 	</item>

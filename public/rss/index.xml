@@ -1,8 +1,3 @@
----js
-{
-  "builddate": (new Date).toUTCString()
-}
----
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -17,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate></lastBuildDate>
+	<lastBuildDate>Wed, 21 Dec 2022 18:05:32 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -28,931 +23,462 @@
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:26 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:23 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:17 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:05 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:03 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:48 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:43 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:19 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:04 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:14 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:32 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
 		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
 	</item>
 	<item>
 		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
 		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>
 		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
 		<title>About Aram</title>
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:50:52 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:55:59 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:16 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:20 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:21 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:25 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
-	</item>
-	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
-		<title>Want to DM me? Use my Keybase: AramZS</title>
-		<link>https://keybase.io/aramzs?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<pubDate>Wed, 21 Dec 2022 17:56:34 GMT</pubDate>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>

@@ -11,7 +11,10 @@ module.exports = function(){
   let settings = JSON.parse(settingsText);
   console.log('settings', settings.links)
 
-  let itemStrings = settings.links.map((link) => JSON.stringify(link));
+  let itemStrings = settings.links.map((link) => {
+    // link.date_published = ((new Date).toUTCString())
+    return JSON.stringify(link)
+  });
   let feedStrings = json.items.map(link => JSON.stringify(link))
   console.log('strings', itemStrings, feedStrings)
   let uniqueItems = new Set();
@@ -35,16 +38,19 @@ module.exports = function(){
         email: settings.social.email
       }
     ],
+    "builddate": (new Date).toUTCString(),
     language: "en-US",
-    items: itemList.map((item) => {
+    items: (itemList.map((item) => {
       var item = JSON.parse(item)
-      item.date_published = item.date_published ? item.date_published : ((new Date).toUTCString());
+      // item.date_published = item.date_published ? item.date_published : ((new Date).toUTCString());
+      // 		<pubDate>{{ item.date_published }}</pubDate>
       return item;
-    })
+    })).reverse()
   })
 
   fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');
   const feed = nj.render('rss.njk', finalJson)
+  console.log('feed', feed)
   fs.writeFileSync('public/rss/index.xml', feed, 'utf8');
   
 }
