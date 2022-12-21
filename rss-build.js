@@ -1,17 +1,22 @@
 var fs = require('fs');
 var nunjucks = require('nunjucks');
-var settings = require('settings.json');
 
 module.exports = function(){
   nunjucks.configure({ autoescape: true });
   let feedJson = fs.readFileSync('feed.json', 'utf8');
+  let settingsText = fs.readFileSync('settings.json', 'utf8');
 
   let json = JSON.parse(feedJson);
+  console.log('json', json.items)
+  let settings = JSON.parse(settingsText);
+  console.log('settings', settings.links)
 
   let itemStrings = settings.links.map((link) => JSON.stringify(link));
   let feedStrings = json.items.map(link => JSON.stringify(link))
+  console.log('strings', itemStrings, feedStrings)
   let uniqueItems = new Set(...itemStrings, ...feedStrings);
   let itemList = Array.from(uniqueItems);
+  console.log('itemlist', itemList)
   
   let finalJson = Object.assign(json, {
     title: settings.metaTitle,
@@ -23,10 +28,13 @@ module.exports = function(){
     authors: [
       {
         name: settings.name,
-        url: settings.authorUrl
+        url: settings.authorUrl,
+        avatar: settings.avatarImage
       }
-    ]
+    ],
+    language: "en-US",
+    items: itemList.map(item => JSON.parse(item))
   })
 
-  fs.writeFileSync('feed.json', json, 'utf8');
+  fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');
 }

@@ -1,20 +1,21 @@
 {
-  "version": "https://jsonfeed.org/version/1.1",
-  "title": "My Example Feed",
-  "home_page_url": "https://example.org/",
-  "feed_url": "https://example.org/feed.json",
-  "description": "Optional to provide more detail beyond the title.",
-  "user_comment": "Optional and should be ignored by feed readers.",
-  "next_url": "https://example.org/feed-pagination.json?x=unique_next_url",
-  "icon": "https://example.org/favicon-timeline-512x512.png",
-  "favicon": "https://example.org/favicon-sourcelist-64x64.png",
-  "authors": [
-    {
-      "name": "Optional Author",
-      "url": "https://example.org/authors/optional-author",
-      "avatar": "https://example.org/authors/optional-author/avatar-512x512.png"
-    }
-  ],
-  "language": "en-US",
-  "items": []
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Aram Zucker-Scharff's Glitch in Bio!",
+ "home_page_url": "https://aramzs.glitch.me/",
+ "feed_url": "https://aramzs.glitch.me/rss",
+ "description": "Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.",
+ "user_comment": "Optional and should be ignored by feed readers.",
+ "next_url": "https://example.org/feed-pagination.json?x=unique_next_url",
+ "icon": "https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305",
+ "favicon": "https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305",
+ "authors": [
+  {
+   "name": "Aram Zucker-Scharff",
+   "url": "https://aramzs.github.io/aramzs/",
+   "avatar": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163"
+  }
+ ],
+ "language": "en-US",
+ "items": [
+ ]
 }
