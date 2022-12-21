@@ -15,8 +15,8 @@ module.exports = function(){
   let feedStrings = json.items.map(link => JSON.stringify(link))
   console.log('strings', itemStrings, feedStrings)
   let uniqueItems = new Set();
+  feedStrings.reverse().forEach(string => uniqueItems.add(string))
   itemStrings.forEach(string => uniqueItems.add(string))
-  feedStrings.forEach(string => uniqueItems.add(string))
   let itemList = Array.from(uniqueItems);
   console.log('itemlist', itemList)
   
@@ -32,14 +32,19 @@ module.exports = function(){
         name: settings.name,
         url: settings.authorUrl,
         avatar: settings.avatarImage,
-        email: settings.email
+        email: settings.social.email
       }
     ],
     language: "en-US",
-    items: itemList.map(item => JSON.parse(item))
+    items: itemList.map((item) => {
+      var item = JSON.parse(item)
+      item.date_published = item.date_published ? item.date_published : ((new Date).toUTCString());
+      return item;
+    })
   })
 
   fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');
   const feed = nj.render('rss.njk', finalJson)
+  fs.writeFileSync('public/rss/index.xml', feed, 'utf8');
   
 }

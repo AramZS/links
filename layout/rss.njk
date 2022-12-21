@@ -21,23 +21,17 @@
 	<language>{{language}}</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://11ty.dev/</generator>
+	<generator>https://glitch.com/</generator>
 	<managingEditor>
-		{{ metadata.author.email }} ({{ name }})
+		{{ authors[0].email }} ({{ authors[0].name }})
 	</managingEditor>
-	{%- for post in collections.posts | reverse %}
-	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+	{%- for item in items %}
 	<item>
-		<title>{{ post.data.title }}</title>
-		<link>{{ absolutePostUrl }}?source=rss</link>
-		<pubDate>{{ post.date.toUTCString() }}</pubDate>
-		<dc:creator>{{ metadata.author.name }}</dc:creator>
-		<guid isPermaLink="true">{{ absolutePostUrl }}</guid>
-		<description>{{ post.data.excerpt or post.data.description or "A Fight With Tools Devblog post." }}</description>
-		<content:encoded><![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}]]></content:encoded>
-		{%- for tag in post.tags %}
-		    <category><![CDATA[{{tag}}]]></category>
-		{%- endfor %}
+		<title>{{ item.text }}</title>
+		<link>{{ item.url }}?source=rss</link>
+		<pubDate>{{ item.date_published }}</pubDate>
+		<dc:creator>{{ authors[0].name }}</dc:creator>
+		<guid isPermaLink="true">{{ item.url }}</guid>
 	</item>
 	{%- endfor %}
 	</channel>
