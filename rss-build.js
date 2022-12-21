@@ -7,9 +7,9 @@ module.exports = function(){
   let settingsText = fs.readFileSync('settings.json', 'utf8');
 
   let json = JSON.parse(feedJson);
-  console.log('json', json.items)
+  // console.log('json', json.items)
   let settings = JSON.parse(settingsText);
-  console.log('settings', settings.links)
+  // console.log('settings', settings.links)
 
   let itemStrings = settings.links.map((link) => {
     // link.date_published = ((new Date).toUTCString())
@@ -38,14 +38,14 @@ module.exports = function(){
         email: settings.social.email
       }
     ],
-    "builddate": (new Date).toUTCString(),
+    builddate: (new Date).toUTCString(),
     language: "en-US",
     items: (itemList.map((item) => {
       var item = JSON.parse(item)
       // item.date_published = item.date_published ? item.date_published : ((new Date).toUTCString());
       // 		<pubDate>{{ item.date_published }}</pubDate>
       return item;
-    })).reverse()
+    }))
   })
 
   fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');

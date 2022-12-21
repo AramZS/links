@@ -6,10 +6,11 @@ import rssBuild from "./rss-build"
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ command, mode }) => {
-  console.log('BUILDING from config', process.env)
-  rssBuild()
+  console.log('BUILDING from config')
+  
   return {
     plugins: [
+      rssBuild(),
       handlebars({
         partialDirectory: resolve(__dirname, "layout"),
         settingsFile: 'settings.json',
