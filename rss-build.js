@@ -52,5 +52,11 @@ module.exports = function(){
   const feed = nj.render('rss.njk', finalJson)
   console.log('feed', feed)
   fs.writeFileSync('public/rss/index.xml', feed, 'utf8');
+  try {
+    fs.mkdirSync('build/rss')
+  } catch (err) {
+    if (err.code !== 'EEXIST') console.log('build/rss exists')
+  }
+  fs.writeFileSync('build/rss/index.xml', feed, 'utf8');
   
 }

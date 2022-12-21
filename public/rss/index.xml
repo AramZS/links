@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Wed, 21 Dec 2022 18:16:05 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 21 Dec 2022 18:29:12 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -21,34 +21,10 @@
 		glitch@aramzs.me (Aram Zucker-Scharff)
 	</managingEditor>
 	<item>
-		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
-		<link>http://aramzs.me/zsfc?source=rss</link>
+		<title>About Aram</title>
+		<link>https://aramzs.github.io/aramzs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
-	</item>
-	<item>
-		<title>Why you should find the Mastodon instance that works for you</title>
-		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
-	</item>
-	<item>
-		<title>Topics API Review</title>
-		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
-	</item>
-	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
+		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
@@ -57,10 +33,34 @@
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
 	</item>
 	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
+		<title>Twitter Explains Web3 to Me</title>
+		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
+	</item>
+	<item>
+		<title>Topics API Review</title>
+		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
+	</item>
+	<item>
+		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
+		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
+	</item>
+	<item>
+		<title>Why you should find the Mastodon instance that works for you</title>
+		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
+	</item>
+	<item>
+		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
+		<link>http://aramzs.me/zsfc?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">http://aramzs.me/zsfc</guid>
 	</item>
 	</channel>
 </rss>
