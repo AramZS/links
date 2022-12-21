@@ -5,7 +5,7 @@ import handlebars from "@glitchdotcom/vite-plugin-handlebars";
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ command, mode }) => {
-  console.log('BUILDING from config')
+  console.log('BUILDING from config', process.env)
   return {
     plugins: [
       handlebars({
