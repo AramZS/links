@@ -2,7 +2,7 @@ var fs = require('fs');
 var nunjucks = require('nunjucks');
 
 module.exports = function(){
-  nunjucks.configure({ autoescape: true });
+  var nj = new nunjucks.Environment(new nunjucks.FileSystemLoader('layout'), { autoescape: true });
   let feedJson = fs.readFileSync('feed.json', 'utf8');
   let settingsText = fs.readFileSync('settings.json', 'utf8');
 
@@ -14,7 +14,9 @@ module.exports = function(){
   let itemStrings = settings.links.map((link) => JSON.stringify(link));
   let feedStrings = json.items.map(link => JSON.stringify(link))
   console.log('strings', itemStrings, feedStrings)
-  let uniqueItems = new Set(...itemStrings, ...feedStrings);
+  let uniqueItems = new Set();
+  itemStrings.forEach(string => uniqueItems.add(string))
+  feedStrings.forEach(string => uniqueItems.add(string))
   let itemList = Array.from(uniqueItems);
   console.log('itemlist', itemList)
   
@@ -29,7 +31,8 @@ module.exports = function(){
       {
         name: settings.name,
         url: settings.authorUrl,
-        avatar: settings.avatarImage
+        avatar: settings.avatarImage,
+        email: settings.email
       }
     ],
     language: "en-US",
@@ -37,4 +40,6 @@ module.exports = function(){
   })
 
   fs.writeFileSync('feed.json', JSON.stringify(json, null, 1), 'utf8');
+  const feed = nj.render('rss.njk', finalJson)
+  
 }
