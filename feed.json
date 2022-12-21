@@ -1,0 +1,20 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "My Example Feed",
+  "home_page_url": "https://example.org/",
+  "feed_url": "https://example.org/feed.json",
+  "description": "Optional to provide more detail beyond the title.",
+  "user_comment": "Optional and should be ignored by feed readers.",
+  "next_url": "https://example.org/feed-pagination.json?x=unique_next_url",
+  "icon": "https://example.org/favicon-timeline-512x512.png",
+  "favicon": "https://example.org/favicon-sourcelist-64x64.png",
+  "authors": [
+    {
+      "name": "Optional Author",
+      "url": "https://example.org/authors/optional-author",
+      "avatar": "https://example.org/authors/optional-author/avatar-512x512.png"
+    }
+  ],
+  "language": "en-US",
+  "items": []
+}
