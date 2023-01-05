@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aramzs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aramzs.glitch.me
+  * I am aramzs (https://keybase.io/aramzs) on keybase.
+  * I have a public key ASDeNWmshQhFnp83d565t78yues4JCFUmrvKl2LhxOYS7wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120de3569ac8508459e9f37779eb9b7bf32b9eb382421549abbca9762e1c4e612ef0a",
+      "host": "keybase.io",
+      "kid": "0120de3569ac8508459e9f37779eb9b7bf32b9eb382421549abbca9762e1c4e612ef0a",
+      "uid": "1eb2b390a4a487c8ce843a10f7df0c19",
+      "username": "aramzs"
+    },
+    "merkle_root": {
+      "ctime": 1672940137,
+      "hash": "1f924886a77b7256a9384bd1a3cc4fa69e978bfd4660eef977e04858ed48e6c8052b7ece320d2d41448080939a12a167bdb7f49e827b832d9c09332d85393082",
+      "hash_meta": "f4b7464cb6ebbf5f190b523542a101cde7f746e456e61a4b129eb615f1e5204d",
+      "seqno": 23817003
+    },
+    "service": {
+      "entropy": "qh9S8bo/hOM8bWar3VtY1ldt",
+      "hostname": "aramzs.glitch.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1672940183,
+  "expire_in": 504576000,
+  "prev": "f94c2b7d9e2bcbab4dff53fe4ff02c7403c62f1e2edccb2ce5734398e4f714b2",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3jVprIUIRZ6fN3eeube/MrnrOCQhVJq7ypdi4cTmEu8Kp3BheWxvYWTESpcCKsQg+UwrfZ4ry6tN/1P+T/AsdAPGLx4u3Mss5XNDmOT3FLLEIJZn3b2qXwjRnmK47nWBUqv4vnr5S4AniAUH/WPmocYSAgHCo3NpZ8RATfWha4c+GOTGhVFhgdQP7wv7djDZ+NBpO+7TG2TDn1TH7ZMzXvligV/SN9fUejZEq4yLAPcby0L3rvPizKW+B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII0/lfsefbDDTdlANeETaqn6iLxYphY7QBAdpcge3fxvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aramzs
+
+==================================================================
