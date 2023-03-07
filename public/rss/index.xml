@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Tue, 07 Mar 2023 07:46:18 GMT</lastBuildDate>
+	<lastBuildDate>Tue, 07 Mar 2023 19:46:36 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -20,6 +20,12 @@
 	<managingEditor>
 		glitch@aramzs.me (Aram Zucker-Scharff)
 	</managingEditor>
+	<item>
+		<title>Notes on Privacy Extremism; or How to Blow Up a Digital Billboard</title>
+		<link>https://startedwithatweet.substack.com/p/notes-on-privacy-extremism?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/notes-on-privacy-extremism</guid>
+	</item>
 	<item>
 		<title>Understanding ActivityPub at all levels</title>
 		<link>https://context.center/topics/activitypub/?source=rss</link>
@@ -45,12 +51,6 @@
 		<guid isPermaLink="true">http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html</guid>
 	</item>
 	<item>
-		<title>Twitter Explains Web3 to Me</title>
-		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
-	</item>
-	<item>
 		<title>Want to DM me? Use my Keybase: AramZS</title>
 		<link>https://keybase.io/aramzs?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
@@ -61,6 +61,12 @@
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+	</item>
+	<item>
+		<title>Twitter Explains Web3 to Me</title>
+		<link>https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/twitter-explains-web3-to-me?s=w</guid>
 	</item>
 	<item>
 		<title>The MTA’s switch to OMNY machines is a privacy nightmare</title>
