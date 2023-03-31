@@ -249,7 +249,7 @@ ul.link-list li a span {
   max-height: 26px;
 }
 /* Image paths specified in layout/social.html */
-.social-profile-icon path {
+.social-profile-icon path, .social-profile-icon g, .social-profile-icon g g {
   fill: var(--color-bg-alt);
 }
 .social-profile-icon:hover path, .social-profile-icon:focus path {
