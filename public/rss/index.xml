@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Sun, 18 Jun 2023 12:53:22 GMT</lastBuildDate>
+	<lastBuildDate>Sun, 18 Jun 2023 15:21:31 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -27,6 +27,12 @@
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/notes-on-privacy-extremism</guid>
 	</item>
 	<item>
+		<title>On Twitter We Look Down</title>
+		<link>https://startedwithatweet.substack.com/p/on-twitter-we-look-down?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/on-twitter-we-look-down</guid>
+	</item>
+	<item>
 		<title>Understanding ActivityPub at all levels</title>
 		<link>https://context.center/topics/activitypub/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
@@ -37,12 +43,6 @@
 		<link>https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/</guid>
-	</item>
-	<item>
-		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
-		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Topics API Review</title>
@@ -61,6 +61,12 @@
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+	</item>
+	<item>
+		<title>Comment on the IAB Tech Lab&#39;s Global Privacy Platform (GPP)</title>
+		<link>https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.github.io/web-standards/2022/09/02/global-privacy-platform-review.html</guid>
 	</item>
 	<item>
 		<title>Twitter Explains Web3 to Me</title>

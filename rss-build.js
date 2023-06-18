@@ -21,7 +21,7 @@ module.exports = function(){
   itemStrings.forEach(string => uniqueItems.add(string))
   feedStrings.forEach(string => uniqueItems.add(string))
   let itemList = Array.from(uniqueItems);
-  //console.log('itemlist', itemList)
+  // console.log('rss itemlist', itemList)
   
   let finalJson = Object.assign(json, {
     title: settings.metaTitle,
