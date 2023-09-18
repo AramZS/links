@@ -82,7 +82,6 @@ body {
 .footer .tagline {
   padding: 0.25rem 1rem 1rem;
   text-align: left;
-  white-space: nowrap;
 }
 .btn--remix {
   font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
