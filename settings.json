@@ -8,6 +8,11 @@
   "avatarImage": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163",
   "links": [
     {
+      "url": "https://songobsessed.com/",
+      "text": "Song Obsessed",
+      "img": "https://songobsessed.com/img/glass-horn-640.jpg"
+    },
+    {
       "url": "https://startedwithatweet.substack.com/p/notes-on-privacy-extremism",
       "text": "Notes on Privacy Extremism; or How to Blow Up a Digital Billboard",
       "img":"https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/9bdc44c6-0760-4904-baf3-5ff8df329ba5_1400x788.webp?v=1678209279079"
@@ -20,11 +25,6 @@
       "url": "https://context.center/topics/activitypub/",
       "text": "Understanding ActivityPub at all levels",
       "img": "https://context.center/img/network-models.jpg"
-    },
-    {
-      "url": "https://fightwithtools.dev/posts/writing/why-you-should-find-a-mastodon-instance/",
-      "text": "Why you should find the Mastodon instance that works for you",
-      "img": "https://fightwithtools.dev/img/a-group-of-people.png"
     },
     {
       "url": "http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html",
