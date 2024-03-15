@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Thu, 14 Mar 2024 20:46:12 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 15 Mar 2024 01:43:14 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -31,6 +31,12 @@
 		<link>https://startedwithatweet.substack.com/p/notes-on-privacy-extremism?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/notes-on-privacy-extremism</guid>
+	</item>
+	<item>
+		<title>Presentation on how to build a website</title>
+		<link>https://aramzs.github.io/build-a-website/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.github.io/build-a-website/</guid>
 	</item>
 	<item>
 		<title>On Twitter We Look Down</title>
