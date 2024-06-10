@@ -7,6 +7,12 @@
   "theme": "glitch",
   "avatarImage": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163",
   "links": [
+    
+    {
+      "url": "https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/",
+      "text": "The Internet is a Series of Webs",
+      "img": "https://aramzs.xyz/img/posts/1443px-Typical-orb-web-photo.jpg"
+    },
     {
       "url": "https://songobsessed.com/",
       "text": "Song Obsessed",
@@ -24,11 +30,6 @@
     {
       "url": "https://startedwithatweet.substack.com/p/on-twitter-we-look-down",
       "text": "On Twitter We Look Down"
-    },
-    {
-      "url": "https://context.center/topics/activitypub/",
-      "text": "Understanding ActivityPub at all levels",
-      "img": "https://context.center/img/network-models.jpg"
     },
     {
       "url": "http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html",
