@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Mon, 10 Jun 2024 12:35:10 GMT</lastBuildDate>
+	<lastBuildDate>Tue, 11 Jun 2024 00:35:06 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -20,6 +20,12 @@
 	<managingEditor>
 		glitch@aramzs.me (Aram Zucker-Scharff)
 	</managingEditor>
+	<item>
+		<title>The Internet is a Series of Webs</title>
+		<link>https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/</guid>
+	</item>
 	<item>
 		<title>Song Obsessed</title>
 		<link>https://songobsessed.com/?source=rss</link>
@@ -45,12 +51,6 @@
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/on-twitter-we-look-down</guid>
 	</item>
 	<item>
-		<title>Understanding ActivityPub at all levels</title>
-		<link>https://context.center/topics/activitypub/?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://context.center/topics/activitypub/</guid>
-	</item>
-	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
@@ -67,6 +67,12 @@
 		<link>https://aramzs.github.io/aramzs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+	</item>
+	<item>
+		<title>Understanding ActivityPub at all levels</title>
+		<link>https://context.center/topics/activitypub/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://context.center/topics/activitypub/</guid>
 	</item>
 	<item>
 		<title>Why you should find the Mastodon instance that works for you</title>
