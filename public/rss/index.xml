@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Thu, 02 Jan 2025 15:14:01 GMT</lastBuildDate>
+	<lastBuildDate>Fri, 03 Jan 2025 02:58:54 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -25,6 +25,12 @@
 		<link>https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/</guid>
+	</item>
+	<item>
+		<title>Don&#39;t Post AI at Me</title>
+		<link>https://aramzs.xyz/thoughts/dont-post-ai-at-me/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.xyz/thoughts/dont-post-ai-at-me/</guid>
 	</item>
 	<item>
 		<title>Song Obsessed</title>
@@ -51,6 +57,12 @@
 		<guid isPermaLink="true">https://startedwithatweet.substack.com/p/on-twitter-we-look-down</guid>
 	</item>
 	<item>
+		<title>About Aram</title>
+		<link>https://aramzs.github.io/aramzs/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
+	</item>
+	<item>
 		<title>Topics API Review</title>
 		<link>http://aramzs.github.io/web-standards/2022/08/04/topics-api-review.html?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
@@ -61,12 +73,6 @@
 		<link>https://keybase.io/aramzs?source=rss</link>
 		<dc:creator>Aram Zucker-Scharff</dc:creator>
 		<guid isPermaLink="true">https://keybase.io/aramzs</guid>
-	</item>
-	<item>
-		<title>About Aram</title>
-		<link>https://aramzs.github.io/aramzs/?source=rss</link>
-		<dc:creator>Aram Zucker-Scharff</dc:creator>
-		<guid isPermaLink="true">https://aramzs.github.io/aramzs/</guid>
 	</item>
 	<item>
 		<title>Understanding ActivityPub at all levels</title>
