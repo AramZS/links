@@ -12,7 +12,7 @@
 	<atom:link href="https://aramzs.glitch.me/rss/index.xml" rel="self" type="application/rss+xml" />
 	<link>https://aramzs.glitch.me/</link>
 	<description>Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.</description>
-	<lastBuildDate>Tue, 21 Jan 2025 13:41:28 GMT</lastBuildDate>
+	<lastBuildDate>Wed, 22 Jan 2025 01:41:42 GMT</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -20,6 +20,12 @@
 	<managingEditor>
 		glitch@aramzs.me (Aram Zucker-Scharff)
 	</managingEditor>
+	<item>
+		<title>If the federal government hosts something important to you, archive it yourself</title>
+		<link>https://aramzs.xyz/microblogs/if-the-federal-government-hosts-something-important-to-you-archive-it-yourself/?source=rss</link>
+		<dc:creator>Aram Zucker-Scharff</dc:creator>
+		<guid isPermaLink="true">https://aramzs.xyz/microblogs/if-the-federal-government-hosts-something-important-to-you-archive-it-yourself/</guid>
+	</item>
 	<item>
 		<title>The Internet is a Series of Webs</title>
 		<link>https://aramzs.xyz/essays/the-internet-is-a-series-of-webs/?source=rss</link>
