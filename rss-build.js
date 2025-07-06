@@ -1,7 +1,7 @@
 import fs from "fs";
 import nunjucks from "nunjucks";
 
-export default function () {
+function generateRssFeed() {
 	var nj = new nunjucks.Environment(new nunjucks.FileSystemLoader("layout"), {
 		autoescape: true,
 	});
@@ -30,8 +30,8 @@ export default function () {
 		home_page_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/`,
 		feed_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/rss/index.xml`,
 		description: settings.metaDescription,
-		icon: `https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305`,
-		favicon: `https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305`,
+		icon: `https://aramzs.xyz/feed-img.svg`,
+		favicon: `https://aramzs.xyz/feed-img.svg`,
 		authors: [
 			{
 				name: settings.name,
@@ -62,4 +62,22 @@ export default function () {
 		console.log("build/rss exists");
 	}
 	fs.writeFileSync("build/rss/index.xml", feed, "utf8");
+}
+
+export default function rssBuildPlugin() {
+	return {
+		name: "rss-build",
+		buildStart() {
+			// Generate RSS feed when build starts
+			generateRssFeed();
+		},
+		configureServer(server) {
+			// Also generate RSS feed during development
+			generateRssFeed();
+		},
+		configResolved(config) {
+			// Ensure the public directory is created
+			generateRssFeed();
+		},
+	};
 }

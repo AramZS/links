@@ -1,9 +1,13 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
 // Slightly modified from https://github.com/alexlafroscia/vite-plugin-handlebars
-import handlebars from "@glitchdotcom/vite-plugin-handlebars";
-import rssBuild from "./rss-build";
+// import handlebars from "@glitchdotcom/vite-plugin-handlebars";
+import handlebars from "vite-plugin-handlebars";
+import { default as rssBuild } from "./rss-build";
 import basicSsl from "@vitejs/plugin-basic-ssl";
+
+import settings from "./settings.json";
+
 // https://vitejs.dev/config/
 export default defineConfig(async ({ command, mode }) => {
 	console.log("BUILDING from config");
@@ -11,15 +15,14 @@ export default defineConfig(async ({ command, mode }) => {
 	return {
 		plugins: [
 			basicSsl(),
-			rssBuild(),
+			{ ...rssBuild(), enforce: "post" },
 			handlebars({
 				partialDirectory: resolve(__dirname, "layout"),
 				settingsFile: "settings.json",
-				helpers: {
-					hostasclass: (value) =>
-						new URL(value).hostname.replace(/\./g, "_"),
-				},
 				reloadOnPartialChange: true,
+				context: {
+					settings,
+				},
 			}),
 		],
 		build: {
