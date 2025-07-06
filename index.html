@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <title>{{ settings.metaTitle }}</title>
-    
+
     {{> head }}
-    
+
     <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
     <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
   </head>
@@ -12,8 +12,8 @@
     <main>
       <div class="wrapper">
         <div class="content">
-          
-          {{> avatar }} 
+          <h1>{{ data.settings.metaTitle }}</h1>
+          {{> avatar }}
           {{> name }}
 
           <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here:
@@ -28,22 +28,22 @@
           </div>
           --->
 
-          {{> links }} 
-          
+          {{> links }}
+
         </div>
       </div>
-      
+
       <p style="font-size:12px; word-wrap: break-word;">
         <b>BlueSky</b>: <a href="https://staging.bsky.app/profile/chronotope.aramzs.xyz" rel="me">chronotope.aramzs.xyz</a><br /><br />
         <b>Nostr Public Key</b>: <a style="font-size:10px" href="https://snort.social/p/npub13w0rudlmsmmjst0yldfx2p0z646g7txsnc30hksc78d2v5pgaytqpls9ap">8b9e3e37fb86f7282de4fb526505e2d5748f2cd09e22fbda18f1daa65028e916</a>
       </p>
 
       {{> social }}
-      
+
       <p style="font-size:9px; word-wrap:break-word;">
         We are only as strong as our signal.
       </p>
-      
+
       <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
       {{> glitch-footer }}
     </main>

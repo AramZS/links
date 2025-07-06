@@ -1,13 +1,13 @@
 {
  "version": "https://jsonfeed.org/version/1.1",
  "title": "Aram Zucker-Scharff's Glitch in Bio!",
- "home_page_url": "https://aramzs.glitch.me/",
- "feed_url": "https://aramzs.glitch.me/rss/index.xml",
+ "home_page_url": "https://undefined.glitch.me/",
+ "feed_url": "https://undefined.glitch.me/rss/index.xml",
  "description": "Aram Zucker-Scharff is an Engineering Lead for Privacy at The Washington Post and a consultant. Tech solutions for journo problems.",
  "user_comment": "Optional and should be ignored by feed readers.",
  "next_url": "https://example.org/feed-pagination.json?x=unique_next_url",
- "icon": "https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305",
- "favicon": "https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305",
+ "icon": "https://aramzs.xyz/feed-img.svg",
+ "favicon": "https://aramzs.xyz/feed-img.svg",
  "authors": [
   {
    "name": "Aram Zucker-Scharff",
@@ -91,5 +91,5 @@
    "img": "https://github.com/AramZS/aramzs.github.io/blob/master/_includes/portrait_of_a_confused_person_looking_at_a_computer.png?raw=true"
   }
  ],
- "builddate": "Fri, 23 May 2025 15:44:24 GMT"
+ "builddate": "Sun, 06 Jul 2025 18:41:19 GMT"
 }
