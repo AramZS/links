@@ -15,14 +15,16 @@
 		"@auto-it/git-tag": "^10.32.3",
 		"@auto-it/released": "^10.32.2",
 		"@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
+		"@vitejs/plugin-basic-ssl": "^2.1.0",
 		"auto": "^10.32.2",
-		"vite": "^2.5.0",
-		"nunjucks": "^3.2.3"
+		"nunjucks": "^3.2.3",
+		"vite": "^7.0.2"
 	},
 	"browserslist": [
 		">0.2%",
 		"not dead"
 	],
+	"type": "module",
 	"engines": {
 		"node": "21.x"
 	},
