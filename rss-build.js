@@ -52,12 +52,14 @@ export default function () {
 
 	fs.writeFileSync("feed.json", JSON.stringify(json, null, 1), "utf8");
 	const feed = nj.render("rss.njk", finalJson);
-	//console.log('feed', feed)
+
 	fs.writeFileSync("public/rss/index.xml", feed, "utf8");
+	//console.log('feed', feed)
 	try {
-		fs.mkdirSync("build/rss");
+		fs.mkdirSync("build/rss", { recursive: true });
 	} catch (err) {
-		if (err.code !== "EEXIST") console.log("build/rss exists");
+		if (err.code !== "EEXIST") throw err;
+		console.log("build/rss exists");
 	}
 	fs.writeFileSync("build/rss/index.xml", feed, "utf8");
 }
