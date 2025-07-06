@@ -27,8 +27,8 @@ function generateRssFeed() {
 
 	let finalJson = Object.assign(json, {
 		title: settings.metaTitle,
-		home_page_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/`,
-		feed_url: `https://${process.env.PROJECT_DOMAIN}.glitch.me/rss/index.xml`,
+		home_page_url: `https://${settings.domain}`,
+		feed_url: `https://${settings.domain}/rss/index.xml`,
 		description: settings.metaDescription,
 		icon: `https://aramzs.xyz/feed-img.svg`,
 		favicon: `https://aramzs.xyz/feed-img.svg`,
