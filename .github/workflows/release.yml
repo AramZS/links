@@ -26,9 +26,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: npm-deps-${{ hashFiles('package-lock.json') }}
+          key: npm-deps-v2-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            npm-deps-${{ hashFiles('package-lock.json') }}
+            npm-deps-v2-${{ hashFiles('package-lock.json') }}
 
       - name: Create Release
         run: |
