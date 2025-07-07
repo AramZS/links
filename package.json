@@ -1,6 +1,6 @@
 {
   "name": "glitch-in-bio",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Your very own link-in-bio app.",
   "main": "index.html",
   "scripts": {
@@ -9,18 +9,11 @@
     "serve": "vite build && vite preview --port 8085"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^10.32.2",
-    "@auto-it/first-time-contributor": "^10.32.2",
-    "@auto-it/git-tag": "^10.32.3",
-    "@auto-it/released": "^10.32.2",
-    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
     "@vitejs/plugin-basic-ssl": "^2.1.0",
     "auto": "^10.32.2",
-    "i": "^0.3.7",
-    "npm": "^11.4.2",
-    "nunjucks": "^3.2.3",
-    "vite": "^7.0.2",
     "dotenv": "^17.0.1",
+    "nunjucks": "^3.2.4",
+    "vite": "^7.0.2",
     "vite-plugin-handlebars": "^2.0.0"
   },
   "browserslist": [
@@ -29,7 +22,7 @@
   ],
   "type": "module",
   "engines": {
-    "node": "21.x"
+    "node": "22.12.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-in-bio"
@@ -46,6 +39,5 @@
       "git-tag"
     ],
     "onlyPublishWithReleaseLabel": true
-  },
-  "dependencies": {}
+  }
 }
