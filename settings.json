@@ -8,6 +8,11 @@
   "domain": "aramzs.nexus",
   "avatarImage": "https://cdn.glitch.global/7b98fcc0-7e69-44e9-a737-640ad2b6a1b1/Aram-Zucker-Scharff-square.jpg?v=1642704133163",
   "links": [
+	{
+		"url": "https://aramzs.xyz/noteworthy/heres-how-i-know-more-people-read-my-personal-blog-via-rss-then-any-other-platform/",
+		"img": "https://aramzs.xyz/img/posts/rss-zs-favicon-2400-1200.png",
+		"text": "Here's how I know more people read my personal blog via RSS then any other platform"
+	},
     {
       "url": "https://aramzs.xyz/microblogs/if-the-federal-government-hosts-something-important-to-you-archive-it-yourself/",
       "text": "If the federal government hosts something important to you, archive it yourself"
@@ -18,8 +23,8 @@
       "img": "https://aramzs.xyz/img/posts/1443px-Typical-orb-web-photo.jpg"
     },
     {
-      "url": "https://aramzs.xyz/thoughts/dont-post-ai-at-me/",
-      "text": "Don't Post AI at Me",
+      "url": "https://aramzs.xyz/thoughts/code-is-a-joy/",
+      "text": "Code is a Joy",
       "img": "https://aramzs.xyz/zs-favicon-1200-600.png"
     },    
     {
@@ -35,10 +40,6 @@
     {
       "url": "https://aramzs.github.io/build-a-website/",
       "text": "Presentation on how to build a website"
-    },
-    {
-      "url": "https://startedwithatweet.substack.com/p/on-twitter-we-look-down",
-      "text": "On Twitter We Look Down"
     },
     {
       "url": "https://aramzs.github.io/aramzs/",
