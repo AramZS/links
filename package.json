@@ -8,7 +8,7 @@
     "build": "npx vite build",
     "serve": "vite build && vite preview --port 8085"
   },
-  "devDependencies": {
+  "dependencies": {
     "@vitejs/plugin-basic-ssl": "^2.1.0",
     "auto": "^10.32.2",
     "dotenv": "^17.0.1",
