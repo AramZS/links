@@ -48,6 +48,7 @@ ul.link-list li a:focus {
 }
 ul.link-list li a img {
     /*display: none;*/
+    min-width: 100px;
 }
 
 .social-profile-icon path {
