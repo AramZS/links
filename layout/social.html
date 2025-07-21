@@ -564,6 +564,23 @@
     {{/if}}
 
     <!-- ==================== -->
+    <!-- HackerNews -->
+    {{#if settings.social.hackernews}}
+    <a
+      aria-label="See {{settings.name}} on HackerNews"
+      href="{{settings.social.hackernews}}"
+	  tabindex="-1"
+    	target="_blank"
+    >
+		<svg class="social-profile-icon" style="fill:var(--color-bg);" xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="5 5 22 22" preserveAspectRatio="xMidYMid meet">
+			<g transform="">
+					<path d="M 5 5 L 5 27 L 27 27 L 27 5 Z M 7 7 L 25 7 L 25 25 L 7 25 Z M 11.5 11 L 15 17 L 15 22 L 17 22 L 17 17 L 20.5 11 L 18.5 11 L 16 15.28125 L 13.5 11 Z" style="fill:var(--color-bg);"></path>
+			</g>
+		</svg>
+    </a>
+    {{/if}}
+
+    <!-- ==================== -->	
     <!-- Ko-Fi -->
     {{#if settings.social.kofi}}
     <a
